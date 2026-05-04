@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="ChessMaster.AppHost/ChessMaster.AppHost.csproj" />
+  <Project Path="ChessMaster.Server/ChessMaster.Server.csproj" />
+  <Project Path="frontend/frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
