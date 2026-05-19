@@ -377,7 +377,7 @@ export default function ChessBoard() {
 
             {ended && <button className="reset-btn" onClick={reset}>Reîncepe Jocul</button>}
 
-            {/* Meniu promovare */}
+        
             {promotion && (() => {
                 const avail = availableForPromo(promotion.color, board);
                 const names: Record<string, string> = { Q: 'Regină', R: 'Turn', B: 'Nebun', N: 'Cal' };
